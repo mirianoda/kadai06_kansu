@@ -1,0 +1,267 @@
+body{
+    width: 500px;
+    height: 735px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrapper{
+    background-color: rgb(0, 93, 0);
+}
+
+#playButton{
+    position: absolute;
+    top:80px;
+    left:400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    color: rgb(0, 93, 0);
+}
+
+.title{
+    height:65px;
+    background-color: black;
+    color: white;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1{
+    text-align: center;
+    line-height: 65px;
+    margin: 0;
+}
+
+img{
+    height: 100px;
+}
+
+.dealer{
+    height: 190px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.dealer_t{
+    width: fit-content;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    display:none;
+}
+
+#dealer_2_2{
+    display: block;
+    position: absolute;
+    left:149px;
+    top:119px;
+    display:none;
+}
+
+.you{
+    height: 300px;
+    display: flex;
+    width: 100%;
+}
+
+.you_t{
+    width: fit-content;
+    margin-top:47px;
+    position: relative;
+    margin-left: 180px;
+    z-index: 100;
+    display:none;
+}
+
+#you_2{
+    position: absolute;
+    left: 30px;
+}
+#you_3{
+    position: absolute;
+    left: 60px;
+}
+#you_4{
+    position: absolute;
+    left: 90px;
+}
+#you_5{
+    position: absolute;
+    left: 120px;
+}
+
+#score{
+    position: absolute;
+    top:315px;
+    left:250px;
+}
+
+#dealer_score{
+    position: absolute;
+    top:230px;
+    left:250px;
+}
+
+
+#message{
+    height:30px;
+    width: 300px;
+    margin-right:auto ;
+    margin-left: auto;
+    color: rgb(161, 0, 0);
+    background-color: wheat;
+    text-align: center;
+    line-height: 30px;
+    border: solid rgb(161, 0, 0) 2px;
+    opacity: 0;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btn{
+    height: 50px;
+    z-index: 100;
+    /* border: solid black 1px; */
+}
+
+.btn ul{
+    list-style: none;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.btn li{
+    color: yellow;
+    border:solid yellow 2px;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 30px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn li:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.money {
+    height: auto;
+    z-index: 100;
+    padding: 0;   /* 不要なパディングを排除 */
+    margin: 0;    /* 不要なマージンを排除 */
+}
+
+.money_1 {
+    background-color: white;
+    margin: 0;    /* 不要なマージンを排除 */
+    padding: 0;   /* 不要なパディングを排除 */
+}
+
+.money_1 ul, .money_2 ul {
+    display: flex;
+    list-style: none;
+    margin: 0;    /* デフォルトのマージンを排除 */
+    padding: 0;   /* デフォルトのパディングを排除 */
+}
+
+.money_1 li {
+    width: 50%;
+    border: solid black 2px;
+    padding-left: 10px;
+    margin: 0;    /* マージンをリセット */
+}
+
+.money_1 span {
+    float: right;
+    margin-right: 20px;
+}
+
+.money_2 {
+    background-color: black;
+    margin: 0;    /* 不要なマージンを排除 */
+    padding: 0;   /* 不要なパディングを排除 */
+    height: auto; /* 高さを必要に応じて自動調整 */
+}
+
+#bet_btns button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 60px;
+    border: solid white 2px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#bet_btns button:hover{
+    background-color: white;
+    color: black;
+}
+
+.reset{
+    width: 70px;
+    margin-top: 22px;
+    margin-bottom: 8px;
+    margin-left: 205px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+.svg1 {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top:35px;
+    left:-100px;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.you svg {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top:320px;
+    left:110px;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.svg2{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top:25px;
+    left:-100px;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.tip1,.tip2{
+    width: 50px;
+    height: 50px;
+}
+
+.tip1{
+    position: absolute;
+    top:450px;
+    left:180px;
+}
+.tip2{
+    position: absolute;
+    top:470px;
+    left:210px;
+}
